@@ -1,5 +1,6 @@
 body{
 background-color: #f2f4f7;
+
 }
 
 .jumbotron {
@@ -13,10 +14,8 @@ background-color: #f2f4f7;
 }
 
 .container{
-    border-radius: 0px;
   width: 100%;
-  margin: 0;
-  padding: 0;
+
 }
 
 .jumbotron h1 {
@@ -36,13 +35,11 @@ background-color: #f2f4f7;
   width: 100%;
 }
 
-.row {
-  margin-left: -60px;
-    margin-right: -60px;
+header .row {
+  
 }
 nav{
   background-color: rgba(0,0,0,.5);
-  display: block;
 
 }
 nav a {
@@ -57,7 +54,6 @@ nav a :hover {
     color:#ffffff;
 }
 section{
-
     padding: 20px;
 }
 section h3 {
@@ -71,4 +67,15 @@ section:nth-child(odd) {
 section:nth-child(even) {
 
     background: #c9cfd8;
+}
+footer {
+  background-color: rgb(40,40,40,.3);
+}
+footer .row{
+text-align: left;
+}
+
+footer img {
+  height: 100px;
+  width: 100px;
 }
